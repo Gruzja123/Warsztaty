@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteka</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -68,7 +69,12 @@
 
         <section id="books">
             <h2>Polecane książki</h2>
+            
+<div class="table-container">
 
+    <table>
+        ...
+    </table>
             <table>
                 <thead>
                     <tr>
@@ -100,8 +106,11 @@
                         <td>1943</td>
                 </tr>
             </table>
+    </div>
 
-            <article>
+            <div class="book-list">
+
+            <article class="book-card">
                 <h3>Solaris</h3>
 
                 <div class="book-info">
@@ -120,7 +129,7 @@
                 </p>
             </article>
 
-            <article>
+            <article class="book-card">
                 <h3>Lalka</h3>
 
                 <p>
@@ -133,7 +142,7 @@
                 </p>
             </article>
 
-            <article>
+            <article class="book-card">
                 <h3>Hobbit</h3>
 
                 <p>
@@ -145,7 +154,7 @@
                     spokojny dom i wyrusza w niebezpieczną podróż.
                 </p>
             </article>
-            <article>
+            <article class="book-card">
     <h3>Mały Książę</h3>
 
     <div class="book-info">
@@ -163,8 +172,10 @@
         z mieszkańcami różnych planet.
     </p>
 </article>
+</div>
 
-                             <form method="get">
+                             <form class="search-form"
+     method="get">
 
                                                             <div>
                                                                 <label for="query">
@@ -247,4 +258,14 @@
 
 </body>
 </html>
+<section>
+    <h2>Test Flexbox</h2>
+
+    <div class="flex-test">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</section>
+
 
